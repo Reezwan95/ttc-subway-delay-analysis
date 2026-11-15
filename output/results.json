@@ -1,0 +1,684 @@
+{
+ "summary": {
+  "raw_rows": 90574,
+  "rows_in_scope": 88449,
+  "focus_window": "2023-01-01 to 2025-10-31",
+  "focus_incidents": 69796,
+  "focus_delay_incidents": 24704,
+  "focus_delay_minutes": 195635,
+  "focus_delay_hours": 3261,
+  "median_delay_min": 5,
+  "pct_incidents_causing_delay": 35.4,
+  "n_codes_total": 123,
+  "n_codes_for_80pct": 25,
+  "top10_station_share_pct": 27.7,
+  "long_delay_share_incidents_pct": 2.5,
+  "long_delay_share_minutes_pct": 19.9,
+  "unmapped_code_share_pct": 0.8
+ },
+ "yoy_jan_oct": [
+  {
+   "year": 2022,
+   "incidents": 15508,
+   "delay_incidents": 7102,
+   "delay_minutes": 55251,
+   "avg_min_per_delay": 7.78,
+   "pct_incidents_causing_delay": 45.8
+  },
+  {
+   "year": 2023,
+   "incidents": 18085,
+   "delay_incidents": 6535,
+   "delay_minutes": 53294,
+   "avg_min_per_delay": 8.16,
+   "pct_incidents_causing_delay": 36.1
+  },
+  {
+   "year": 2024,
+   "incidents": 21945,
+   "delay_incidents": 7799,
+   "delay_minutes": 61659,
+   "avg_min_per_delay": 7.91,
+   "pct_incidents_causing_delay": 35.5
+  },
+  {
+   "year": 2025,
+   "incidents": 21216,
+   "delay_incidents": 7417,
+   "delay_minutes": 58106,
+   "avg_min_per_delay": 7.83,
+   "pct_incidents_causing_delay": 35
+  }
+ ],
+ "category": [
+  {
+   "category": "Patron",
+   "delay_minutes": 95215,
+   "delay_incidents": 11866,
+   "share_pct": 48.7
+  },
+  {
+   "category": "Mechanical/Infrastructure",
+   "delay_minutes": 28840,
+   "delay_incidents": 2787,
+   "share_pct": 14.7
+  },
+  {
+   "category": "Unknown",
+   "delay_minutes": 27433,
+   "delay_incidents": 3538,
+   "share_pct": 14
+  },
+  {
+   "category": "Mechanical/Vehicle",
+   "delay_minutes": 25209,
+   "delay_incidents": 4050,
+   "share_pct": 12.9
+  },
+  {
+   "category": "Human/Process",
+   "delay_minutes": 11080,
+   "delay_incidents": 1891,
+   "share_pct": 5.7
+  },
+  {
+   "category": "Weather",
+   "delay_minutes": 3603,
+   "delay_incidents": 215,
+   "share_pct": 1.8
+  },
+  {
+   "category": "Other/External",
+   "delay_minutes": 2883,
+   "delay_incidents": 244,
+   "share_pct": 1.5
+  },
+  {
+   "category": "Other/Internal",
+   "delay_minutes": 1199,
+   "delay_incidents": 110,
+   "share_pct": 0.6
+  },
+  {
+   "category": "Planned Work",
+   "delay_minutes": 173,
+   "delay_incidents": 3,
+   "share_pct": 0.1
+  }
+ ],
+ "codes_top20": [
+  {
+   "code": "SUDP",
+   "description": "Disorderly Patron",
+   "category": "Patron",
+   "delay_minutes": 23827,
+   "delay_incidents": 3433,
+   "median_min": 5,
+   "cum_share_pct": 12.2
+  },
+  {
+   "code": "SUUT",
+   "description": "Unauthorized At Track Level",
+   "category": "Patron",
+   "delay_minutes": 14741,
+   "delay_incidents": 1071,
+   "median_min": 10,
+   "cum_share_pct": 19.7
+  },
+  {
+   "code": "SUO",
+   "description": "Security Other",
+   "category": "Unknown",
+   "delay_minutes": 13958,
+   "delay_incidents": 1384,
+   "median_min": 6,
+   "cum_share_pct": 26.8
+  },
+  {
+   "code": "PUOPO",
+   "description": "Opto (Communications) Train Door Monitoring",
+   "category": "Mechanical/Vehicle",
+   "delay_minutes": 11370,
+   "delay_incidents": 2022,
+   "median_min": 5,
+   "cum_share_pct": 32.7
+  },
+  {
+   "code": "MUIR",
+   "description": "Injured/Ill Customer On Train  Medical Aid Refused",
+   "category": "Patron",
+   "delay_minutes": 10893,
+   "delay_incidents": 1511,
+   "median_min": 5,
+   "cum_share_pct": 38.2
+  },
+  {
+   "code": "MUI",
+   "description": "Injured/Ill Customer On Train  Transported",
+   "category": "Patron",
+   "delay_minutes": 10720,
+   "delay_incidents": 945,
+   "median_min": 8,
+   "cum_share_pct": 43.7
+  },
+  {
+   "code": "MUPAA",
+   "description": "Paa  No Trouble Found",
+   "category": "Patron",
+   "delay_minutes": 9215,
+   "delay_incidents": 2234,
+   "median_min": 4,
+   "cum_share_pct": 48.4
+  },
+  {
+   "code": "MUPR1",
+   "description": "Priority One  Train In Contact With Person",
+   "category": "Patron",
+   "delay_minutes": 6979,
+   "delay_incidents": 93,
+   "median_min": 75,
+   "cum_share_pct": 52
+  },
+  {
+   "code": "MUPLB",
+   "description": "Fire/Smoke Plan B  Source Ttc (Track Level)",
+   "category": "Mechanical/Infrastructure",
+   "delay_minutes": 5393,
+   "delay_incidents": 147,
+   "median_min": 23,
+   "cum_share_pct": 54.7
+  },
+  {
+   "code": "SUAP",
+   "description": "Assualt / Patron Involved",
+   "category": "Patron",
+   "delay_minutes": 4976,
+   "delay_incidents": 446,
+   "median_min": 8,
+   "cum_share_pct": 57.3
+  },
+  {
+   "code": "MUSAN",
+   "description": "Unsanitary Vehicle",
+   "category": "Patron",
+   "delay_minutes": 4777,
+   "delay_incidents": 1013,
+   "median_min": 4,
+   "cum_share_pct": 59.7
+  },
+  {
+   "code": "TUO",
+   "description": "Transportation Other",
+   "category": "Unknown",
+   "delay_minutes": 4262,
+   "delay_incidents": 729,
+   "median_min": 5,
+   "cum_share_pct": 61.9
+  },
+  {
+   "code": "PUTWZ",
+   "description": "Work Zones Problems  Track",
+   "category": "Mechanical/Infrastructure",
+   "delay_minutes": 4215,
+   "delay_incidents": 368,
+   "median_min": 7,
+   "cum_share_pct": 64.1
+  },
+  {
+   "code": "MUO",
+   "description": "Miscellaneous Other",
+   "category": "Unknown",
+   "delay_minutes": 4063,
+   "delay_incidents": 602,
+   "median_min": 5,
+   "cum_share_pct": 66.1
+  },
+  {
+   "code": "SUEAS",
+   "description": "Eas Activated  No Trouble Found",
+   "category": "Patron",
+   "delay_minutes": 3507,
+   "delay_incidents": 281,
+   "median_min": 11,
+   "cum_share_pct": 67.9
+  },
+  {
+   "code": "EUDO",
+   "description": "Door Problems Re:Faulty Equipment",
+   "category": "Mechanical/Vehicle",
+   "delay_minutes": 3163,
+   "delay_incidents": 502,
+   "median_min": 5,
+   "cum_share_pct": 69.5
+  },
+  {
+   "code": "MUWEA",
+   "description": "Weather Reports / Related Problems",
+   "category": "Weather",
+   "delay_minutes": 3106,
+   "delay_incidents": 167,
+   "median_min": 3,
+   "cum_share_pct": 71.1
+  },
+  {
+   "code": "PUSSW",
+   "description": "Track Switch Failure  S/E/C Related Problem",
+   "category": "Mechanical/Infrastructure",
+   "delay_minutes": 3105,
+   "delay_incidents": 112,
+   "median_min": 10,
+   "cum_share_pct": 72.7
+  },
+  {
+   "code": "MUDD",
+   "description": "Door Problems  Debris Related",
+   "category": "Mechanical/Vehicle",
+   "delay_minutes": 3050,
+   "delay_incidents": 509,
+   "median_min": 5,
+   "cum_share_pct": 74.3
+  },
+  {
+   "code": "MUATC",
+   "description": "Atc Project",
+   "category": "Mechanical/Infrastructure",
+   "delay_minutes": 2931,
+   "delay_incidents": 493,
+   "median_min": 5,
+   "cum_share_pct": 75.8
+  }
+ ],
+ "stations_top10": [
+  {
+   "station_clean": "EGLINTON",
+   "delay_minutes": 6479,
+   "delay_incidents": 818
+  },
+  {
+   "station_clean": "ST GEORGE",
+   "delay_minutes": 6462,
+   "delay_incidents": 852
+  },
+  {
+   "station_clean": "KENNEDY",
+   "delay_minutes": 5992,
+   "delay_incidents": 912
+  },
+  {
+   "station_clean": "KIPLING",
+   "delay_minutes": 5939,
+   "delay_incidents": 947
+  },
+  {
+   "station_clean": "BLOOR",
+   "delay_minutes": 5521,
+   "delay_incidents": 815
+  },
+  {
+   "station_clean": "FINCH",
+   "delay_minutes": 5270,
+   "delay_incidents": 835
+  },
+  {
+   "station_clean": "WILSON",
+   "delay_minutes": 4945,
+   "delay_incidents": 752
+  },
+  {
+   "station_clean": "SHEPPARD WEST",
+   "delay_minutes": 4535,
+   "delay_incidents": 395
+  },
+  {
+   "station_clean": "DAVISVILLE",
+   "delay_minutes": 4519,
+   "delay_incidents": 568
+  },
+  {
+   "station_clean": "SPADINA",
+   "delay_minutes": 4437,
+   "delay_incidents": 516
+  }
+ ],
+ "hours": [
+  {
+   "hour": 0,
+   "delay_minutes": 7159,
+   "delay_incidents": 820
+  },
+  {
+   "hour": 1,
+   "delay_minutes": 6157,
+   "delay_incidents": 683
+  },
+  {
+   "hour": 2,
+   "delay_minutes": 1109,
+   "delay_incidents": 103
+  },
+  {
+   "hour": 3,
+   "delay_minutes": 89,
+   "delay_incidents": 11
+  },
+  {
+   "hour": 4,
+   "delay_minutes": 533,
+   "delay_incidents": 16
+  },
+  {
+   "hour": 5,
+   "delay_minutes": 9419,
+   "delay_incidents": 1080
+  },
+  {
+   "hour": 6,
+   "delay_minutes": 10218,
+   "delay_incidents": 1443
+  },
+  {
+   "hour": 7,
+   "delay_minutes": 8348,
+   "delay_incidents": 1160
+  },
+  {
+   "hour": 8,
+   "delay_minutes": 10537,
+   "delay_incidents": 1577
+  },
+  {
+   "hour": 9,
+   "delay_minutes": 8571,
+   "delay_incidents": 1051
+  },
+  {
+   "hour": 10,
+   "delay_minutes": 7105,
+   "delay_incidents": 990
+  },
+  {
+   "hour": 11,
+   "delay_minutes": 8872,
+   "delay_incidents": 1042
+  },
+  {
+   "hour": 12,
+   "delay_minutes": 8960,
+   "delay_incidents": 1048
+  },
+  {
+   "hour": 13,
+   "delay_minutes": 9198,
+   "delay_incidents": 1190
+  },
+  {
+   "hour": 14,
+   "delay_minutes": 9351,
+   "delay_incidents": 1232
+  },
+  {
+   "hour": 15,
+   "delay_minutes": 10808,
+   "delay_incidents": 1356
+  },
+  {
+   "hour": 16,
+   "delay_minutes": 12132,
+   "delay_incidents": 1561
+  },
+  {
+   "hour": 17,
+   "delay_minutes": 11641,
+   "delay_incidents": 1602
+  },
+  {
+   "hour": 18,
+   "delay_minutes": 9819,
+   "delay_incidents": 1299
+  },
+  {
+   "hour": 19,
+   "delay_minutes": 9823,
+   "delay_incidents": 1212
+  },
+  {
+   "hour": 20,
+   "delay_minutes": 9406,
+   "delay_incidents": 1106
+  },
+  {
+   "hour": 21,
+   "delay_minutes": 8281,
+   "delay_incidents": 1021
+  },
+  {
+   "hour": 22,
+   "delay_minutes": 9094,
+   "delay_incidents": 1093
+  },
+  {
+   "hour": 23,
+   "delay_minutes": 9005,
+   "delay_incidents": 1008
+  }
+ ],
+ "lines": [
+  {
+   "line_clean": "Line 1 (YU)",
+   "delay_minutes": 111544,
+   "delay_incidents": 14428,
+   "median_min": 5
+  },
+  {
+   "line_clean": "Line 2 (BD)",
+   "delay_minutes": 75960,
+   "delay_incidents": 9413,
+   "median_min": 5
+  },
+  {
+   "line_clean": "Line 4 (SHP)",
+   "delay_minutes": 8131,
+   "delay_incidents": 863,
+   "median_min": 6
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2023-01",
+   "delay_minutes": 5459,
+   "delay_incidents": 679
+  },
+  {
+   "month": "2023-02",
+   "delay_minutes": 4461,
+   "delay_incidents": 591
+  },
+  {
+   "month": "2023-03",
+   "delay_minutes": 5907,
+   "delay_incidents": 724
+  },
+  {
+   "month": "2023-04",
+   "delay_minutes": 5683,
+   "delay_incidents": 638
+  },
+  {
+   "month": "2023-05",
+   "delay_minutes": 5371,
+   "delay_incidents": 624
+  },
+  {
+   "month": "2023-06",
+   "delay_minutes": 5908,
+   "delay_incidents": 687
+  },
+  {
+   "month": "2023-07",
+   "delay_minutes": 4997,
+   "delay_incidents": 619
+  },
+  {
+   "month": "2023-08",
+   "delay_minutes": 4857,
+   "delay_incidents": 614
+  },
+  {
+   "month": "2023-09",
+   "delay_minutes": 5696,
+   "delay_incidents": 688
+  },
+  {
+   "month": "2023-10",
+   "delay_minutes": 4955,
+   "delay_incidents": 671
+  },
+  {
+   "month": "2023-11",
+   "delay_minutes": 4661,
+   "delay_incidents": 658
+  },
+  {
+   "month": "2023-12",
+   "delay_minutes": 5357,
+   "delay_incidents": 702
+  },
+  {
+   "month": "2024-01",
+   "delay_minutes": 6352,
+   "delay_incidents": 883
+  },
+  {
+   "month": "2024-02",
+   "delay_minutes": 5476,
+   "delay_incidents": 748
+  },
+  {
+   "month": "2024-03",
+   "delay_minutes": 6505,
+   "delay_incidents": 814
+  },
+  {
+   "month": "2024-04",
+   "delay_minutes": 7119,
+   "delay_incidents": 781
+  },
+  {
+   "month": "2024-05",
+   "delay_minutes": 7126,
+   "delay_incidents": 858
+  },
+  {
+   "month": "2024-06",
+   "delay_minutes": 4646,
+   "delay_incidents": 621
+  },
+  {
+   "month": "2024-07",
+   "delay_minutes": 5780,
+   "delay_incidents": 690
+  },
+  {
+   "month": "2024-08",
+   "delay_minutes": 6591,
+   "delay_incidents": 853
+  },
+  {
+   "month": "2024-09",
+   "delay_minutes": 5758,
+   "delay_incidents": 745
+  },
+  {
+   "month": "2024-10",
+   "delay_minutes": 6306,
+   "delay_incidents": 806
+  },
+  {
+   "month": "2024-11",
+   "delay_minutes": 5603,
+   "delay_incidents": 779
+  },
+  {
+   "month": "2024-12",
+   "delay_minutes": 6955,
+   "delay_incidents": 814
+  },
+  {
+   "month": "2025-01",
+   "delay_minutes": 6381,
+   "delay_incidents": 808
+  },
+  {
+   "month": "2025-02",
+   "delay_minutes": 8766,
+   "delay_incidents": 917
+  },
+  {
+   "month": "2025-03",
+   "delay_minutes": 6305,
+   "delay_incidents": 801
+  },
+  {
+   "month": "2025-04",
+   "delay_minutes": 6052,
+   "delay_incidents": 750
+  },
+  {
+   "month": "2025-05",
+   "delay_minutes": 5432,
+   "delay_incidents": 731
+  },
+  {
+   "month": "2025-06",
+   "delay_minutes": 5117,
+   "delay_incidents": 664
+  },
+  {
+   "month": "2025-07",
+   "delay_minutes": 5597,
+   "delay_incidents": 688
+  },
+  {
+   "month": "2025-08",
+   "delay_minutes": 5127,
+   "delay_incidents": 741
+  },
+  {
+   "month": "2025-09",
+   "delay_minutes": 4179,
+   "delay_incidents": 613
+  },
+  {
+   "month": "2025-10",
+   "delay_minutes": 5150,
+   "delay_incidents": 704
+  }
+ ],
+ "patron_top5": [
+  {
+   "description": "Disorderly Patron",
+   "delay_minutes": 23827,
+   "delay_incidents": 3433
+  },
+  {
+   "description": "Unauthorized At Track Level",
+   "delay_minutes": 14741,
+   "delay_incidents": 1071
+  },
+  {
+   "description": "Injured/Ill Customer On Train  Medical Aid Refused",
+   "delay_minutes": 10893,
+   "delay_incidents": 1511
+  },
+  {
+   "description": "Injured/Ill Customer On Train  Transported",
+   "delay_minutes": 10720,
+   "delay_incidents": 945
+  },
+  {
+   "description": "Paa  No Trouble Found",
+   "delay_minutes": 9215,
+   "delay_incidents": 2234
+  }
+ ]
+}

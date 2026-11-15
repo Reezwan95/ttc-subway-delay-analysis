@@ -1,0 +1,5 @@
+year,incidents,delay_incidents,delay_minutes,avg_min_per_delay,pct_incidents_causing_delay
+2022,15508,7102,55251,7.78,45.8
+2023,18085,6535,53294,8.16,36.1
+2024,21945,7799,61659,7.91,35.5
+2025,21216,7417,58106,7.83,35.0

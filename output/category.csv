@@ -1,0 +1,10 @@
+category,delay_minutes,delay_incidents,share_pct
+Patron,95215,11866,48.7
+Mechanical/Infrastructure,28840,2787,14.7
+Unknown,27433,3538,14.0
+Mechanical/Vehicle,25209,4050,12.9
+Human/Process,11080,1891,5.7
+Weather,3603,215,1.8
+Other/External,2883,244,1.5
+Other/Internal,1199,110,0.6
+Planned Work,173,3,0.1
